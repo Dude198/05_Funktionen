@@ -27,10 +27,20 @@
 /***** Funktionen 02b *****/
 // 2b. Parametrisierung + Datenübergabe von Aussen
 
-ausgabeNamenParam("Sabine");// Argument
-// Argumente sind Daten für Parameter
+// ausgabeNamenParam("Sabine");// Argument
+// // Argumente sind Daten für Parameter
 
-function ausgabeNamenParam(firstName) // Parameter
+// function ausgabeNamenParam(firstName) // Parameter
+// {
+//     console.log("Hallo " + firstName + "!");    
+// }
+
+/***** Funktionen 02c *****/
+// 2c. Mehrere Parameter
+
+ausgabeNamenParam("Marcel","Eggert");// Argument
+
+function ausgabeNamenParam(firstName,familyName) // Parameter
 {
-    console.log("Hallo " + firstName + "!");    
+    console.log("Hallo " + firstName + " " + familyName + "!");    
 }
